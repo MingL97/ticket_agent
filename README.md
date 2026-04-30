@@ -34,16 +34,17 @@
 
 ## 技术架构
 
+```text
 ticket_agent/
-├── main.py # 主程序入口
+├── main.py
 ├── agents/
-│ ├── intent_agent.py # 意图识别 Agent
-│ ├── reasoning_agent.py # 长链推理 Agent
-│ └── decision_agent.py # 决策 Agent
-├── knowledge_base.py # 知识库（可扩展为向量数据库）
-├── utils.py # 工具函数
+│   ├── intent_agent.py
+│   ├── reasoning_agent.py
+│   └── decision_agent.py
+├── knowledge_base.py
+├── utils.py
 └── data/
-└── sample_tickets.json # 示例工单数据
+    └── sample_tickets.json
 
 
 ## 快速开始
